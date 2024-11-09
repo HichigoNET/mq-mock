@@ -1,0 +1,66 @@
+2024-01-05 04:52:42,857 INFO o.a.j.u.JMeterUtils: Setting Locale to ru_RU
+2024-01-05 04:52:42,884 ERROR o.a.j.u.JMeterUtils: Could not find resources for 'ru_RU'
+2024-01-05 04:52:42,888 INFO o.a.j.JMeter: Loading user properties from: D:\Programs\apache-jmeter-5.5\bin\user.properties
+2024-01-05 04:52:42,894 INFO o.a.j.JMeter: Loading system properties from: D:\Programs\apache-jmeter-5.5\bin\system.properties
+2024-01-05 04:52:42,899 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: Version 5.5
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: java.version=20
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: os.name=Windows 11
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: os.arch=amd64
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: os.version=10.0
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: java.awt.headless=null
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: Max memory     =8531214336
+2024-01-05 04:52:42,900 INFO o.a.j.JMeter: Available Processors =24
+2024-01-05 04:52:42,908 INFO o.a.j.JMeter: Default Locale=русский (Россия)
+2024-01-05 04:52:42,909 INFO o.a.j.JMeter: JMeter  Locale=русский (Россия)
+2024-01-05 04:52:42,909 INFO o.a.j.JMeter: JMeterHome=D:\Programs\apache-jmeter-5.5
+2024-01-05 04:52:42,909 INFO o.a.j.JMeter: user.dir  =D:\mq_mock\jxm
+2024-01-05 04:52:42,909 INFO o.a.j.JMeter: PWD       =D:\mq_mock\jxm
+2024-01-05 04:52:42,910 INFO o.a.j.JMeter: IP: 192.168.50.246 Name: MSI FullName: MSI
+2024-01-05 04:52:42,916 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2024-01-05 04:52:43,145 INFO o.a.j.JMeterGuiLauncher: Setting LAF to: com.github.weisj.darklaf.DarkLaf:com.github.weisj.darklaf.theme.IntelliJTheme
+2024-01-05 04:52:45,072 WARN o.j.r.PluginManager: Found JAR conflict: D:\Programs\apache-jmeter-5.5\lib\cmdrunner-2.3.jar and D:\Programs\apache-jmeter-5.5\lib\cmdrunner-2.2.jar
+2024-01-05 04:52:45,073 WARN o.j.r.PluginManager: Found JAR conflict: D:\Programs\apache-jmeter-5.5\lib\ext\jmeter-plugins-manager-1.9.jar and D:\Programs\apache-jmeter-5.5\lib\ext\jmeter-plugins-manager-1.10.jar
+2024-01-05 04:52:45,370 INFO o.j.r.JARSourceHTTP: Requesting https://jmeter-plugins.org/repo/?installID=windows_11-9782ff87acb3a40421d3a8a794f8b2e7-gui
+2024-01-05 04:52:47,273 INFO o.a.j.JMeterGuiLauncher: Loading file: .\mq scripts.jmx
+2024-01-05 04:52:47,275 INFO o.a.j.s.FileServer: Default base='D:\mq_mock\jxm'
+2024-01-05 04:52:47,275 INFO o.a.j.s.FileServer: Set new base='D:\mq_mock\jxm\.'
+2024-01-05 04:52:47,536 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-01-05 04:52:47,556 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-01-05 04:52:47,560 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-01-05 04:52:47,561 WARN o.a.j.s.SaveService: Can't register a converter: com.blazemeter.jmeter.citrix.sampler.CitrixSampleResultConverter
+java.lang.ClassNotFoundException: com.blazemeter.jmeter.citrix.sampler.CitrixSampleResultConverter
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:391) ~[?:?]
+	at java.lang.Class.forName(Class.java:382) ~[?:?]
+	at org.apache.jmeter.save.SaveService.registerConverter(SaveService.java:280) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.save.SaveService.registerConverter(SaveService.java:256) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.save.SaveService.initProps(SaveService.java:242) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.save.SaveService.<clinit>(SaveService.java:161) ~[ApacheJMeter_core.jar:5.5]
+	at org.apache.jmeter.JMeterGuiLauncher$loadFile$2.invokeSuspend(JMeterGuiLauncher.kt:142) ~[ApacheJMeter_core.jar:5.5]
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33) ~[kotlin-stdlib-1.6.21.jar:1.6.21-release-334(1.6.21)]
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:106) ~[kotlinx-coroutines-core-jvm-1.6.1.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:570) ~[kotlinx-coroutines-core-jvm-1.6.1.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:749) ~[kotlinx-coroutines-core-jvm-1.6.1.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:677) ~[kotlinx-coroutines-core-jvm-1.6.1.jar:?]
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:664) ~[kotlinx-coroutines-core-jvm-1.6.1.jar:?]
+2024-01-05 04:52:47,579 INFO o.a.j.s.SaveService: Loading file: .\mq scripts.jmx
+2024-01-05 04:52:47,586 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=2.0, bzm-siebel=2.1, bzm-hls=3.1, bzm-http2-legacy=2.0.3, bzm-http2=2.0.3, bzm-rte=3.2.2, bzm-repositories=1.0, blazemeter-debugger=0.6, jpgc-sense=3.5, jpgc-casutg=2.10, jpgc-dummy=0.4, bzm-parallel=0.11, jpgc-prmctl=0.4, jpgc-plugins-manager=1.10, jmeter-core=5.5, jmeter-ftp=5.5, jmeter-http=5.5, jmeter-jdbc=5.5, jmeter-jms=5.5, jmeter-junit=5.5, jmeter-java=5.5, jmeter-ldap=5.5, jmeter-mail=5.5, jmeter-mongodb=5.5, jmeter-native=5.5, jmeter-tcp=5.5, jmeter-components=5.5]
+2024-01-05 04:52:47,588 INFO o.j.r.PluginManagerMenuItem: Plugins Manager has upgrades: [bzm-siebel, bzm-http2, bzm-repositories]
+2024-01-05 04:52:47,692 INFO o.a.j.s.FileServer: Set new base='D:\mq_mock\jxm\.'
+2024-01-05 04:52:47,994 INFO c.b.j.c.c.t.LocalConfiguration: Installing default files
+2024-01-05 04:52:48,015 INFO c.b.j.c.c.t.LocalConfiguration: bzm - Correlation Recorder Test Plan Template installed
+2024-01-05 04:52:48,020 INFO c.b.j.c.c.t.LocalConfiguration: Siebel Correlation's Template installed
+2024-01-05 04:52:48,192 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2024-01-05 04:52:48,192 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file D:\Programs\apache-jmeter-5.5\bin\proxyserver.jks
+2024-01-05 04:52:48,300 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-05 04:52:48,300 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-05 04:52:48,300 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-05 04:52:48,300 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-01-05 04:52:48,300 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-01-05 04:52:48,300 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser

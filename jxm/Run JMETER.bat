@@ -1,0 +1,1 @@
+javaw -jar "%JMETER_HOME%\ApacheJMeter.jar" -t ".\mq scripts.jmx"
